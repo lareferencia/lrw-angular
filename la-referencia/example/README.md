@@ -2,9 +2,17 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.6.
 
+## Instalation
+
+Run `npm install`
+
+## Port cofig
+
+U need to use port 8080, so, for Develompet server run `ng serve --port 8080`
+
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Run `ng serve --port 8080` for a dev server. Navigate to `http://localhost:8080/`. The application will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 

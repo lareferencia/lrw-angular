@@ -4,13 +4,13 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'lrw-historic-widget',
-  templateUrl: './lrw-historic-widget.component.html',
-  styleUrls: ['./lrw-historic-widget.component.css']
+  templateUrl: './lrw-repository-widget.component.html',
+  styleUrls: ['./lrw-repository-widget.component.css']
 })
-export class LrwHistoricWidgetComponent {
+export class LrwRepositoryWidgetComponent {
 
   
-  public version = '0.0.4'
+  public version = '0.0.7'
   public view = 'Vistas';
   public download = 'Descargas'
   public outlink = 'Enalces'
@@ -51,6 +51,7 @@ export class LrwHistoricWidgetComponent {
 
     const widget = document.createElement('script');
     widget.src = ` https://cdn.jsdelivr.net/gh/lareferencia/lrhw@${this.version}/dist/historic-widget.js` ;
+    // widget.src = './assets/historic-widget.js' ;
 
     const container = document.getElementById('lareferencia-repository-widget');
     if (container) {
